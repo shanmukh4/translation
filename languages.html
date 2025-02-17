@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages of India</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="../static/theme.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>🌍 Languages of India</h1>
+    <p>Explore the diversity of India's languages and their cultural significance.</p>
+    <button id="themeToggle">🌙</button>
+</header>
+
+<main>
+    <section class="translation-box">
+        <h2>Main Languages in India</h2>
+    
+        
+        
+        <div class="language-info">
+            <div class="language-img">
+                <img src="data:image/png;base64,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" alt="Tamil Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Tamil</h3>
+                <p>Tamil is one of the oldest surviving classical languages in the world. It is spoken in the Indian state of Tamil Nadu and by Tamil-speaking people in Sri Lanka, Singapore, and Malaysia. Tamil literature, dating back over 2,000 years, is among the richest and most well-preserved in the world. The Tamil people have a rich history, particularly in the fields of arts, philosophy, and politics.</p>
+                <p>Region: Mainly spoken in Tamil Nadu, and parts of Sri Lanka, Singapore, and Malaysia.</p>
+            </div>
+        </div>
+
+        <div class="language-info">
+            <div class="language-img">
+                <img src="https://cdn.telugu360.com/wp-content/uploads/2021/08/Telugu.jpg" alt="Telugu Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Telugu</h3>
+                <p>Telugu is the third most spoken language in India, primarily spoken in the states of Andhra Pradesh and Telangana. It is written in the Telugu script, and its literature dates back over a thousand years. Telugu has a rich classical heritage with a wide range of poetry, dance, and music. The language is also renowned for its contributions to Indian cinema, especially in Tollywood.</p>
+                <p>Region: Mainly spoken in Andhra Pradesh and Telangana.</p>
+            </div>
+        </div>
+        <div class="language-info">
+            <div class="language-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7-PIY6k81xkBEOH_aXcaBZOiCjxWgQ1RXzA&s" alt="Hindi Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Hindi</h3>
+                <p>Hindi is the most widely spoken language in India, and it is one of the official languages of the Indian government. It is written in the Devanagari script and has a rich literary tradition, with a vast collection of poetry, novels, and historical texts. Hindi is the primary language in Northern India, especially in states like Uttar Pradesh, Bihar, and Madhya Pradesh. The language has also evolved into various dialects over time, with several regional variations.</p>
+                <p>Region: Primarily spoken in North and Central India.</p>
+            </div>
+        </div>
+    
+        <div class="language-info">
+            <div class="language-img">
+                <img src="https://www.nktv.in/wp-content/uploads/2025/01/marathi.jpg" alt="Marathi Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Marathi</h3>
+                <p>Marathi is an Indo-Aryan language spoken by millions of people in the state of Maharashtra. It has a vast literature, including classical poetry, drama, and novels. Marathi is also the language of Bollywood's early films and has a strong cultural presence through theater and literature. The language's dialects are quite diverse, influenced by geography and historical factors.</p>
+                <p>Region: Spoken mainly in Maharashtra, but also in parts of Goa, Karnataka, and Madhya Pradesh.</p>
+            </div>
+        </div>
+     
+        
+    
+        <div class="language-info">
+            <div class="language-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSanhypEqrSxx31Vcid1h6qOqssCH6LGuKHJw&s" alt="Gujarati Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Gujarati</h3>
+                <p>Gujarati is an Indo-Aryan language spoken primarily by the people of the state of Gujarat. It is written in the Gujarati script and has a rich cultural heritage, with literature, art, and music that reflect the region's traditions. The language is also known for its contributions to Indian independence, as Mahatma Gandhi was a Gujarati speaker.</p>
+                <p>Region: Spoken primarily in Gujarat, but also by diaspora communities in the UK, USA, and Canada.</p>
+            </div>
+        </div>
+    
+        <div class="language-info">
+            <div class="language-img">
+                <img src="data:image/png;base64,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" alt="Kannada Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Kannada</h3>
+                <p>Kannada is the official language of the state of Karnataka and is spoken by millions across the region. It is one of the Dravidian languages, and its literature has a long history, spanning over a thousand years. Kannada literature is known for its poetry, classical music, and theater. The language is also spoken by Kannada-speaking people in neighboring states like Maharashtra, Andhra Pradesh, and Tamil Nadu.</p>
+                <p>Region: Primarily spoken in Karnataka, with some speakers in Maharashtra, Andhra Pradesh, and Tamil Nadu.</p>
+            </div>
+        </div>
+    
+        <div class="language-info">
+            <div class="language-img">
+                <img src="data:image/png;base64,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" alt="Malayalam Language" style="width: 100%; height: auto;">
+            </div>
+            <div class="language-content">
+                <h3>Malayalam</h3>
+                <p>Malayalam is a Dravidian language spoken in the Indian state of Kerala and the Union Territory of Lakshadweep. It has a rich tradition of literature, poetry, and cinema. Malayalam's unique script and the vast body of literary works make it one of the most prominent languages of South India. The language's influence is also seen in the Malayalam film industry, which has been internationally recognized.</p>
+                <p>Region: Mainly spoken in Kerala and Lakshadweep.</p>
+            </div>
+        </div>
+    
+        <!-- Add more languages as needed -->
+    </section>
+    
+
+    <a href="/" class="nav-button">Back to Home</a>
+
+</main>
+
+<footer>
+    <p>© 2025 Language Translator | Bringing Cultures Together</p>
+</footer>
+
+<script src="../static/script.js"></script>
+</body>
+</html>

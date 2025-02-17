@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Translation</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>📂 Bulk Document Translator</h1>
+    <p>Upload your document and translate it into multiple languages!</p>
+    <button id="themeToggle">🌙</button>
+</header>
+
+<main>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" accept=".txt, .docx, .pdf, .pptx" required>
+        
+        <label for="docLanguageSelect">Select Language:</label>
+        <select id="docLanguageSelect">
+            <option value="hi">Hindi</option>
+            <option value="te">Telugu</option>
+            <option value="ml">Malayalam</option>
+            <option value="kn">Kannada</option>
+            <option value="ta">Tamil</option>
+            <option value="gu">Gujarati</option>
+            <option value="mr">Marwari</option>
+        </select>
+
+        <button type="submit">Translate Document</button>
+    </form>
+
+    <div id="docTranslatedText" class="hidden"></div>
+    <p id="errorMessage" class="error hidden"></p>
+</main>
+
+<a href="/">Go Back</a>
+
+<script src="../static/script.js"></script>
+</body>
+</html>

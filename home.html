@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌍 Language Translator</h1>
+        <p>“Unity in Diversity” - Experience the richness of languages</p>
+        <button id="themeToggle">🌙</button>
+    </header>
+    
+
+<main>
+    <section class="translation-box">
+        <h2>Translate Text</h2>
+        <textarea id="textInput" placeholder="Enter text to translate..."></textarea>
+        
+        <label for="languageSelect">Select Language:</label>
+        <select id="languageSelect">
+            <option value="hi">Hindi</option>
+            <option value="te">Telugu</option>
+            <option value="ml">Malayalam</option>
+            <option value="kn">Kannada</option>
+            <option value="ta">Tamil</option>
+            <option value="gu">Gujarati</option>
+            <option value="mr">Marwari</option>
+        </select>
+
+        <button id="translateBtn">Translate</button>
+        <button id="showTranslation">Show Translation</button>
+
+        <div id="translatedText" class="hidden"></div>
+        <div id="translatedText" class="hidden"></div>
+        <button id="listenTranslation" style="display: none;">🔊</button>
+
+
+    </section>
+    <button id="startListening">🎤 Start Listening</button>
+    <a href="/document-translation" class="nav-button">Go to Bulk Translation</a>
+</main>
+
+<!-- About Section -->
+<!-- Existing HTML code ... -->
+
+<!-- About Section -->
+<section id="about">
+    <h2>🇮🇳 About India's Linguistic Diversity</h2>
+    <p>
+        India is a land of incredible linguistic diversity, where people speak over <b>1,600 languages</b>. 
+        Despite these differences, India stands as a symbol of <b>unity and cultural harmony</b>.  
+        Each language carries its own heritage, literature, and traditions, contributing to the nation's rich tapestry of culture.
+    </p>
+
+    <!-- More Info Button -->
+    <a href="/languages" class="nav-button">More Info</a>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Language Translator | Bringing Cultures Together</p>
+</footer>
+
+<!-- Existing Script... -->
+
+<script src="../static/script-home.js"></script>
+</body>
+</html>
